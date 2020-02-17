@@ -4,7 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      my name's not mike
+      <div className="namecard">
+            <h1>THE CHUMBUCKET</h1>
+            <p>MIKE___</p>
+      </div>
     </div>
   );
 }
