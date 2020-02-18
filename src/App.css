@@ -25,3 +25,12 @@ h1{
   font-family: Chum;
   src: url('./Krabby_Patty.ttf');
 }
+
+.full-screen{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
