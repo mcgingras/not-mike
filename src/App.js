@@ -31,6 +31,7 @@ function App() {
       <div className="namecard">
             <h1>THE <br/> CHUMBUCKET</h1>
             <CanvasDraw
+            className="pencil"
             onChange={(e) => {startGif(e)}}
             brushRadius={loadGif ? 1 : 20}
             brushColor= {'#FFF'}

@@ -5,6 +5,11 @@
 
 body{
   background-color: #eea687;
+  cursor: url(pencil.png), auto !important;
+}
+
+.pencil{
+  cursor: url(pencil.png), auto;
 }
 
 h1{
