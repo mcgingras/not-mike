@@ -34,3 +34,13 @@ h1{
   top: 0;
   right: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .namecard{
+    width: 80%;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+}

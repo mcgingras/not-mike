@@ -19,7 +19,6 @@ function App() {
 
   const startGif = (e) => {
     if(isLoaded){
-      console.log('starting?');
       setTimeout(() => {
         e.clear()
         setLoadGif(true);
@@ -33,10 +32,12 @@ function App() {
             <h1>THE <br/> CHUMBUCKET</h1>
             <CanvasDraw
             onChange={(e) => {startGif(e)}}
-            brushRadius="20"
+            brushRadius={loadGif ? 1 : 20}
             brushColor= {'#FFF'}
-            catenaryColor={'#FFF'}
+            catenaryColor={'inherit'}
+            disabled={loadGif}
             canvasHeight={100}
+            canvasWidth={350}
             saveData={saveData}
             lazyRadius={0}
             immediateLoading={true}
