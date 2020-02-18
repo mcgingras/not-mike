@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <div className="namecard">
-            <h1>THE <br/> CHUMBUCKET</h1>
+            <h1 className="unselectable">THE <br/> CHUMBUCKET</h1>
             <CanvasDraw
             className="pencil"
             onChange={(e) => {startGif(e)}}
